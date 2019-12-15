@@ -1,0 +1,12 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* estilos da capa DIV onde se sitúa a imaxe do Apalpador */
+#capa_apalpador	{
+	position: fixed;
+    width: 209px;
+    z-index: 999999;
+    background-repeat: no-repeat;
+    bottom: -9px!important;
+    left: 17%;	
+}
