@@ -1,0 +1,9 @@
+/* Estilos Apalpador */
+
+.apalpador-container {
+	position: fixed;
+    z-index: 999999;
+    background-repeat: no-repeat;
+	padding:5px;
+}
+
