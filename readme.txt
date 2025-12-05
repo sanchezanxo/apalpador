@@ -1,5 +1,5 @@
 === Apalpador ===
-Contributors: anxosanchez
+Contributors: anxosanchezgarcia
 Tags: christmas, galicia, apalpador, snow, decoration
 Requires at least: 5.0
 Tested up to: 6.7
