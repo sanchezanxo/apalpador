@@ -15,7 +15,7 @@ Adds the traditional Galician Christmas character "Apalpador" to your WordPress 
 
 ![Apalpador on frontend](.github/screenshot-1.jpg)
 
-![Admin settings](.github/screenshot-2.jpg)
+![Admin settings](.github/screenshot-2.JPG)
 
 ## Installation
 
