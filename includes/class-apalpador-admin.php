@@ -298,6 +298,11 @@ class Apalpador_Admin {
 			: $defaults['size'];
 		$sanitized['size_custom'] = absint( $input['size_custom'] ?? $defaults['size_custom'] );
 		$sanitized['size_custom'] = max( 50, min( 500, $sanitized['size_custom'] ) ); // Clamp 50-500.
+		$sanitized['size_mobile']        = in_array( $input['size_mobile'] ?? '', array( 'small', 'medium', 'large', 'custom' ), true )
+			? $input['size_mobile']
+			: $defaults['size_mobile'];
+		$sanitized['size_custom_mobile'] = absint( $input['size_custom_mobile'] ?? $defaults['size_custom_mobile'] );
+		$sanitized['size_custom_mobile'] = max( 50, min( 500, $sanitized['size_custom_mobile'] ) ); // Clamp 50-500.
 		$sanitized['padding_h']   = absint( $input['padding_h'] ?? $defaults['padding_h'] );
 		$sanitized['padding_h']   = min( 200, $sanitized['padding_h'] ); // Max 200.
 		$sanitized['padding_v']   = absint( $input['padding_v'] ?? $defaults['padding_v'] );
@@ -331,6 +336,7 @@ class Apalpador_Admin {
 		$sanitized['star_enabled']   = ! empty( $input['star_enabled'] );
 		$sanitized['star_frequency'] = absint( $input['star_frequency'] ?? $defaults['star_frequency'] );
 		$sanitized['star_frequency'] = max( 5, min( 60, $sanitized['star_frequency'] ) ); // Clamp 5-60.
+		$sanitized['star_color']     = sanitize_hex_color( $input['star_color'] ?? $defaults['star_color'] ) ?: $defaults['star_color'];
 
 		return $sanitized;
 	}
@@ -573,10 +579,13 @@ class Apalpador_Admin {
 	 * @return void
 	 */
 	public function render_field_size() {
-		$options     = Apalpador_Settings::get_options();
-		$size        = $options['size'] ?? 'medium';
-		$size_custom = $options['size_custom'] ?? 150;
+		$options            = Apalpador_Settings::get_options();
+		$size               = $options['size'] ?? 'medium';
+		$size_custom        = $options['size_custom'] ?? 150;
+		$size_mobile        = $options['size_mobile'] ?? 'small';
+		$size_custom_mobile = $options['size_custom_mobile'] ?? 100;
 		?>
+		<p><strong><?php esc_html_e( 'Desktop:', 'apalpador' ); ?></strong></p>
 		<select name="<?php echo esc_attr( $this->option_name ); ?>[size]" class="apalpador-size-select">
 			<option value="small" <?php selected( $size, 'small' ); ?>><?php esc_html_e( 'Small (100px)', 'apalpador' ); ?></option>
 			<option value="medium" <?php selected( $size, 'medium' ); ?>><?php esc_html_e( 'Medium (150px)', 'apalpador' ); ?></option>
@@ -585,6 +594,17 @@ class Apalpador_Admin {
 		</select>
 		<span class="apalpador-custom-size" <?php echo 'custom' === $size ? '' : 'style="display:none;"'; ?>>
 			<input type="number" name="<?php echo esc_attr( $this->option_name ); ?>[size_custom]" value="<?php echo esc_attr( $size_custom ); ?>" min="50" max="500" step="10"> px
+		</span>
+		<br><br>
+		<p><strong><?php esc_html_e( 'Mobile:', 'apalpador' ); ?></strong></p>
+		<select name="<?php echo esc_attr( $this->option_name ); ?>[size_mobile]" class="apalpador-size-mobile-select">
+			<option value="small" <?php selected( $size_mobile, 'small' ); ?>><?php esc_html_e( 'Small (100px)', 'apalpador' ); ?></option>
+			<option value="medium" <?php selected( $size_mobile, 'medium' ); ?>><?php esc_html_e( 'Medium (150px)', 'apalpador' ); ?></option>
+			<option value="large" <?php selected( $size_mobile, 'large' ); ?>><?php esc_html_e( 'Large (200px)', 'apalpador' ); ?></option>
+			<option value="custom" <?php selected( $size_mobile, 'custom' ); ?>><?php esc_html_e( 'Custom', 'apalpador' ); ?></option>
+		</select>
+		<span class="apalpador-custom-size-mobile" <?php echo 'custom' === $size_mobile ? '' : 'style="display:none;"'; ?>>
+			<input type="number" name="<?php echo esc_attr( $this->option_name ); ?>[size_custom_mobile]" value="<?php echo esc_attr( $size_custom_mobile ); ?>" min="50" max="500" step="10"> px
 		</span>
 		<?php
 	}
@@ -743,16 +763,22 @@ class Apalpador_Admin {
 		$options        = Apalpador_Settings::get_options();
 		$star_enabled   = $options['star_enabled'] ?? true;
 		$star_frequency = $options['star_frequency'] ?? 10;
+		$star_color     = $options['star_color'] ?? '#ffffff';
 		?>
 		<label>
 			<input type="checkbox" name="<?php echo esc_attr( $this->option_name ); ?>[star_enabled]" value="1" <?php checked( $star_enabled ); ?> class="apalpador-star-toggle">
 			<?php esc_html_e( 'Enable shooting star effect', 'apalpador' ); ?>
 		</label>
-		<div class="apalpador-star-frequency" <?php echo $star_enabled ? '' : 'style="display:none;"'; ?>>
+		<div class="apalpador-star-options" <?php echo $star_enabled ? '' : 'style="display:none;"'; ?>>
 			<label>
 				<?php esc_html_e( 'Frequency: every', 'apalpador' ); ?>
 				<input type="number" name="<?php echo esc_attr( $this->option_name ); ?>[star_frequency]" value="<?php echo esc_attr( $star_frequency ); ?>" min="5" max="60" step="1">
 				<?php esc_html_e( 'seconds', 'apalpador' ); ?>
+			</label>
+			<br><br>
+			<label>
+				<?php esc_html_e( 'Color:', 'apalpador' ); ?>
+				<input type="color" name="<?php echo esc_attr( $this->option_name ); ?>[star_color]" value="<?php echo esc_attr( $star_color ); ?>">
 			</label>
 		</div>
 		<?php

@@ -96,6 +96,8 @@ class Apalpador_Settings {
 			'position'          => 'bottom-left',
 			'size'              => 'medium',
 			'size_custom'       => 150,
+			'size_mobile'       => 'small',
+			'size_custom_mobile' => 100,
 			'padding_h'         => 20,
 			'padding_v'         => 20,
 			'anim_entry'        => 'slide',
@@ -109,6 +111,7 @@ class Apalpador_Settings {
 			'snow_density'      => 'medium',
 			'star_enabled'      => true,
 			'star_frequency'    => 10,
+			'star_color'        => '#ffffff',
 		);
 	}
 

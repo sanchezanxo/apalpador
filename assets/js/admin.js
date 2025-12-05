@@ -105,9 +105,19 @@
 			}
 		});
 
-		// Size selector - show/hide custom input.
+		// Size selector - show/hide custom input (desktop).
 		$('.apalpador-size-select').on('change', function() {
 			var $customSize = $(this).closest('td').find('.apalpador-custom-size');
+			if ($(this).val() === 'custom') {
+				$customSize.show();
+			} else {
+				$customSize.hide();
+			}
+		});
+
+		// Size selector - show/hide custom input (mobile).
+		$('.apalpador-size-mobile-select').on('change', function() {
+			var $customSize = $(this).closest('td').find('.apalpador-custom-size-mobile');
 			if ($(this).val() === 'custom') {
 				$customSize.show();
 			} else {
@@ -125,13 +135,13 @@
 			}
 		});
 
-		// Star toggle - show/hide frequency.
+		// Star toggle - show/hide options.
 		$('.apalpador-star-toggle').on('change', function() {
-			var $frequency = $(this).closest('td').find('.apalpador-star-frequency');
+			var $options = $(this).closest('td').find('.apalpador-star-options');
 			if ($(this).is(':checked')) {
-				$frequency.show();
+				$options.show();
 			} else {
-				$frequency.hide();
+				$options.hide();
 			}
 		});
 

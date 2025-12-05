@@ -303,7 +303,18 @@
 		}
 
 		var frequency = (options.starFrequency || 10) * 1000; // Convert to milliseconds.
+		var starColor = options.starColor || '#ffffff';
 		var star = null;
+
+		/**
+		 * Convert hex color to rgba for glow effect.
+		 */
+		function hexToRgba(hex, alpha) {
+			var r = parseInt(hex.slice(1, 3), 16);
+			var g = parseInt(hex.slice(3, 5), 16);
+			var b = parseInt(hex.slice(5, 7), 16);
+			return 'rgba(' + r + ', ' + g + ', ' + b + ', ' + alpha + ')';
+		}
 
 		/**
 		 * Create the shooting star element.
@@ -312,6 +323,9 @@
 			star = document.createElement('div');
 			star.className = 'apalpador-shooting-star';
 			star.setAttribute('aria-hidden', 'true');
+			// Set color CSS variables.
+			star.style.setProperty('--star-color', starColor);
+			star.style.setProperty('--star-glow', hexToRgba(starColor, 0.8));
 			document.body.appendChild(star);
 		}
 

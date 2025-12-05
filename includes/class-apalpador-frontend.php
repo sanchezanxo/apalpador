@@ -158,6 +158,7 @@ class Apalpador_Frontend {
 			'snowDensity'    => $options['snow_density'] ?? 'medium',
 			'starEnabled'    => ! empty( $options['star_enabled'] ),
 			'starFrequency'  => absint( $options['star_frequency'] ?? 10 ),
+			'starColor'      => $options['star_color'] ?? '#ffffff',
 		);
 	}
 
@@ -176,6 +177,7 @@ class Apalpador_Frontend {
 
 		$position    = $options['position'] ?? 'bottom-left';
 		$size        = $this->get_size_value();
+		$size_mobile = $this->get_size_value( true );
 		$padding_h   = absint( $options['padding_h'] ?? 20 );
 		$padding_v   = absint( $options['padding_v'] ?? 20 );
 		$anim_entry  = $options['anim_entry'] ?? 'slide';
@@ -194,10 +196,10 @@ class Apalpador_Frontend {
 			$classes[] = 'apalpador-idle';
 		}
 
-		// Build inline styles.
+		// Build inline styles with CSS variables.
 		$styles = array();
-		$styles[] = sprintf( 'width: %dpx', $size );
-		$styles[] = sprintf( 'height: %dpx', $size );
+		$styles[] = sprintf( '--apalpador-size: %dpx', $size );
+		$styles[] = sprintf( '--apalpador-size-mobile: %dpx', $size_mobile );
 
 		if ( 'bottom-left' === $position ) {
 			$styles[] = sprintf( 'left: %dpx', $padding_h );
@@ -229,8 +231,6 @@ class Apalpador_Frontend {
 			<img
 				src="<?php echo esc_url( $image_url ); ?>"
 				alt="<?php esc_attr_e( 'Apalpador', 'apalpador' ); ?>"
-				width="<?php echo esc_attr( $size ); ?>"
-				height="<?php echo esc_attr( $size ); ?>"
 			>
 		</div>
 		<?php
@@ -269,9 +269,10 @@ class Apalpador_Frontend {
 	 *
 	 * @return int Size in pixels.
 	 */
-	private function get_size_value() {
+	private function get_size_value( $mobile = false ) {
 		$options = Apalpador_Settings::get_options();
-		$size    = $options['size'] ?? 'medium';
+		$size    = $mobile ? ( $options['size_mobile'] ?? 'small' ) : ( $options['size'] ?? 'medium' );
+		$custom  = $mobile ? ( $options['size_custom_mobile'] ?? 100 ) : ( $options['size_custom'] ?? 150 );
 
 		switch ( $size ) {
 			case 'small':
@@ -279,7 +280,7 @@ class Apalpador_Frontend {
 			case 'large':
 				return 200;
 			case 'custom':
-				return absint( $options['size_custom'] ?? 150 );
+				return absint( $custom );
 			case 'medium':
 			default:
 				return 150;
