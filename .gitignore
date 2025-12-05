@@ -1,0 +1,34 @@
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.idea/
+.vscode/
+*.sublime-*
+
+# Claude Code
+.claude/
+
+# Node (if ever needed)
+node_modules/
+package-lock.json
+
+# Composer (if ever needed)
+vendor/
+composer.lock
+
+# Build artifacts
+*.zip
+*.tar.gz
+
+# Logs
+*.log
+
+# Local config
+.env
+.env.*
+
+# WordPress debug
+debug.log

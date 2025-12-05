@@ -1,0 +1,508 @@
+# Copyright (C) 2024 Anxo Sánchez
+# This file is distributed under the GPL v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Apalpador 2.0.0\n"
+"Report-Msgid-Bugs-To: https://github.com/sanchezanxo/apalpador/issues\n"
+"POT-Creation-Date: 2024-12-05T00:00:00+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#. Plugin Name of the plugin
+msgid "Apalpador"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://github.com/sanchezanxo/apalpador"
+msgstr ""
+
+#. Description of the plugin
+msgid "Adds the traditional Galician Christmas character \"Apalpador\" to your WordPress site with festive visual effects."
+msgstr ""
+
+#. Author of the plugin
+msgid "Anxo Sánchez"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://www.anxosanchez.com"
+msgstr ""
+
+#: includes/class-apalpador-admin.php:46
+#: includes/class-apalpador-admin.php:58
+msgid "Apalpador Settings"
+msgstr ""
+
+#: includes/class-apalpador-admin.php:59
+msgid "Settings"
+msgstr ""
+
+#: includes/class-apalpador-admin.php:68
+msgid "Apalpador Help"
+msgstr ""
+
+#: includes/class-apalpador-admin.php:69
+msgid "Help"
+msgstr ""
+
+#: includes/class-apalpador-admin.php:112
+msgid "Select Apalpador Image"
+msgstr ""
+
+#: includes/class-apalpador-admin.php:113
+msgid "Use this image"
+msgstr ""
+
+#: includes/class-apalpador-admin.php:137
+msgid "General"
+msgstr ""
+
+#: includes/class-apalpador-admin.php:144
+msgid "Enable Plugin"
+msgstr ""
+
+#: includes/class-apalpador-admin.php:152
+msgid "Show Character"
+msgstr ""
+
+#: includes/class-apalpador-admin.php:160
+msgid "Date Range"
+msgstr ""
+
+#: includes/class-apalpador-admin.php:169
+msgid "Apalpador"
+msgstr ""
+
+#: includes/class-apalpador-admin.php:176
+msgid "Image"
+msgstr ""
+
+#: includes/class-apalpador-admin.php:184
+msgid "Position"
+msgstr ""
+
+#: includes/class-apalpador-admin.php:192
+msgid "Size"
+msgstr ""
+
+#: includes/class-apalpador-admin.php:200
+msgid "Padding"
+msgstr ""
+
+#: includes/class-apalpador-admin.php:209
+msgid "Animations"
+msgstr ""
+
+#: includes/class-apalpador-admin.php:216
+msgid "Entry Animation"
+msgstr ""
+
+#: includes/class-apalpador-admin.php:224
+msgid "Idle Animation"
+msgstr ""
+
+#: includes/class-apalpador-admin.php:232
+msgid "Click Animation"
+msgstr ""
+
+#: includes/class-apalpador-admin.php:240
+msgid "Speech Bubble"
+msgstr ""
+
+#: includes/class-apalpador-admin.php:249
+msgid "Effects"
+msgstr ""
+
+#: includes/class-apalpador-admin.php:256
+msgid "Snow Effect"
+msgstr ""
+
+#: includes/class-apalpador-admin.php:264
+msgid "Shooting Star"
+msgstr ""
+
+#: includes/class-apalpador-admin.php:383
+msgid "Configure when the Apalpador should appear on your site."
+msgstr ""
+
+#: includes/class-apalpador-admin.php:392
+msgid "Customize how the Apalpador looks and where it appears."
+msgstr ""
+
+#: includes/class-apalpador-admin.php:401
+msgid "Configure the Apalpador animations."
+msgstr ""
+
+#: includes/class-apalpador-admin.php:410
+msgid "Add festive visual effects to your site."
+msgstr ""
+
+#: includes/class-apalpador-admin.php:424
+msgid "Enable the plugin on the frontend"
+msgstr ""
+
+#: includes/class-apalpador-admin.php:426
+msgid "Master switch to enable/disable all plugin features."
+msgstr ""
+
+#: includes/class-apalpador-admin.php:441
+msgid "Show the Apalpador character"
+msgstr ""
+
+#: includes/class-apalpador-admin.php:443
+msgid "Disable to show only snow and shooting star effects without the character."
+msgstr ""
+
+#: includes/class-apalpador-admin.php:458
+msgid "From:"
+msgstr ""
+
+#: includes/class-apalpador-admin.php:462
+msgid "To:"
+msgstr ""
+
+#: includes/class-apalpador-admin.php:465
+msgid "Format: MM-DD (e.g., 12-01 for December 1st)"
+msgstr ""
+
+#: includes/class-apalpador-admin.php:499
+msgid "Select a preset image:"
+msgstr ""
+
+#: includes/class-apalpador-admin.php:531
+msgid "Custom"
+msgstr ""
+
+#: includes/class-apalpador-admin.php:539
+msgid "Select from Media Library"
+msgstr ""
+
+#: includes/class-apalpador-admin.php:540
+msgid "Remove"
+msgstr ""
+
+#: includes/class-apalpador-admin.php:545
+msgid "Preview:"
+msgstr ""
+
+#: includes/class-apalpador-admin.php:547
+msgid "Preview"
+msgstr ""
+
+#: includes/class-apalpador-admin.php:564
+msgid "Bottom Left"
+msgstr ""
+
+#: includes/class-apalpador-admin.php:565
+msgid "Bottom Right"
+msgstr ""
+
+#: includes/class-apalpador-admin.php:581
+msgid "Small (100px)"
+msgstr ""
+
+#: includes/class-apalpador-admin.php:582
+msgid "Medium (150px)"
+msgstr ""
+
+#: includes/class-apalpador-admin.php:583
+msgid "Large (200px)"
+msgstr ""
+
+#: includes/class-apalpador-admin.php:584
+msgid "Custom"
+msgstr ""
+
+#: includes/class-apalpador-admin.php:603
+msgid "Horizontal:"
+msgstr ""
+
+#: includes/class-apalpador-admin.php:608
+msgid "Vertical:"
+msgstr ""
+
+#: includes/class-apalpador-admin.php:624
+#: includes/class-apalpador-admin.php:659
+msgid "None"
+msgstr ""
+
+#: includes/class-apalpador-admin.php:625
+msgid "Slide"
+msgstr ""
+
+#: includes/class-apalpador-admin.php:626
+msgid "Fade"
+msgstr ""
+
+#: includes/class-apalpador-admin.php:627
+#: includes/class-apalpador-admin.php:661
+msgid "Bounce"
+msgstr ""
+
+#: includes/class-apalpador-admin.php:628
+msgid "Rotate"
+msgstr ""
+
+#: includes/class-apalpador-admin.php:644
+msgid "Enable subtle breathing animation"
+msgstr ""
+
+#: includes/class-apalpador-admin.php:660
+msgid "Shake"
+msgstr ""
+
+#: includes/class-apalpador-admin.php:662
+msgid "Spin"
+msgstr ""
+
+#: includes/class-apalpador-admin.php:663
+msgid "Pulse"
+msgstr ""
+
+#: includes/class-apalpador-admin.php:682
+msgid "Enable speech bubble"
+msgstr ""
+
+#: includes/class-apalpador-admin.php:686
+msgid "Text:"
+msgstr ""
+
+#: includes/class-apalpador-admin.php:689
+msgid "Maximum 100 characters."
+msgstr ""
+
+#: includes/class-apalpador-admin.php:692
+msgid "Font size:"
+msgstr ""
+
+#: includes/class-apalpador-admin.php:694
+#: includes/class-apalpador-admin.php:729
+msgid "Small"
+msgstr ""
+
+#: includes/class-apalpador-admin.php:695
+#: includes/class-apalpador-admin.php:730
+msgid "Medium"
+msgstr ""
+
+#: includes/class-apalpador-admin.php:696
+#: includes/class-apalpador-admin.php:731
+msgid "Large"
+msgstr ""
+
+#: includes/class-apalpador-admin.php:701
+msgid "Trigger:"
+msgstr ""
+
+#: includes/class-apalpador-admin.php:703
+msgid "Show once on page load"
+msgstr ""
+
+#: includes/class-apalpador-admin.php:704
+msgid "Show on click"
+msgstr ""
+
+#: includes/class-apalpador-admin.php:705
+msgid "Show on hover"
+msgstr ""
+
+#: includes/class-apalpador-admin.php:724
+msgid "Enable snow effect"
+msgstr ""
+
+#: includes/class-apalpador-admin.php:727
+msgid "Density:"
+msgstr ""
+
+#: includes/class-apalpador-admin.php:729
+msgid "Low"
+msgstr ""
+
+#: includes/class-apalpador-admin.php:731
+msgid "High"
+msgstr ""
+
+#: includes/class-apalpador-admin.php:749
+msgid "Enable shooting star effect"
+msgstr ""
+
+#: includes/class-apalpador-admin.php:753
+msgid "Frequency: every"
+msgstr ""
+
+#: includes/class-apalpador-admin.php:755
+msgid "seconds"
+msgstr ""
+
+#: includes/class-apalpador-frontend.php:236
+msgid "Apalpador - Traditional Galician Christmas character"
+msgstr ""
+
+#: includes/class-apalpador-frontend.php:245
+msgid "Apalpador"
+msgstr ""
+
+#: admin/views/help-page.php:17
+msgid "About the Apalpador"
+msgstr ""
+
+#: admin/views/help-page.php:18
+msgid "The Apalpador is a traditional Galician Christmas figure. He is a charcoal maker who comes down from the mountains on the night of December 31st to check if children have eaten well during the year by touching their bellies. If they have eaten well, he leaves them chestnuts as a gift."
+msgstr ""
+
+#: admin/views/help-page.php:20
+msgid "How to Use"
+msgstr ""
+
+#: admin/views/help-page.php:22
+msgid "Go to Settings to configure the plugin."
+msgstr ""
+
+#: admin/views/help-page.php:23
+msgid "Enable the plugin and set your preferred date range."
+msgstr ""
+
+#: admin/views/help-page.php:24
+msgid "Choose an image for the Apalpador or use the default."
+msgstr ""
+
+#: admin/views/help-page.php:25
+msgid "Customize position, size, and animations as desired."
+msgstr ""
+
+#: admin/views/help-page.php:26
+msgid "Enable snow and shooting star effects for extra festivity."
+msgstr ""
+
+#: admin/views/help-page.php:29
+msgid "Settings Overview"
+msgstr ""
+
+#: admin/views/help-page.php:31
+#: includes/class-apalpador-admin.php:137
+msgid "General"
+msgstr ""
+
+#: admin/views/help-page.php:33
+msgid "Enable Plugin:"
+msgstr ""
+
+#: admin/views/help-page.php:33
+msgid "Turn the Apalpador display on or off."
+msgstr ""
+
+#: admin/views/help-page.php:34
+msgid "Date Range:"
+msgstr ""
+
+#: admin/views/help-page.php:34
+msgid "Set when the Apalpador should appear. Default is December 1st to January 6th."
+msgstr ""
+
+#: admin/views/help-page.php:37
+msgid "Apalpador"
+msgstr ""
+
+#: admin/views/help-page.php:39
+msgid "Image:"
+msgstr ""
+
+#: admin/views/help-page.php:39
+msgid "Select a custom image from your media library."
+msgstr ""
+
+#: admin/views/help-page.php:40
+msgid "Position:"
+msgstr ""
+
+#: admin/views/help-page.php:40
+msgid "Choose bottom-left or bottom-right corner."
+msgstr ""
+
+#: admin/views/help-page.php:41
+msgid "Size:"
+msgstr ""
+
+#: admin/views/help-page.php:41
+msgid "Small (100px), Medium (150px), Large (200px), or Custom."
+msgstr ""
+
+#: admin/views/help-page.php:42
+msgid "Padding:"
+msgstr ""
+
+#: admin/views/help-page.php:42
+msgid "Distance from the edges of the screen."
+msgstr ""
+
+#: admin/views/help-page.php:45
+msgid "Animations"
+msgstr ""
+
+#: admin/views/help-page.php:47
+msgid "Entry Animation:"
+msgstr ""
+
+#: admin/views/help-page.php:47
+msgid "How the Apalpador appears when the page loads."
+msgstr ""
+
+#: admin/views/help-page.php:48
+msgid "Idle Animation:"
+msgstr ""
+
+#: admin/views/help-page.php:48
+msgid "Subtle breathing movement while idle."
+msgstr ""
+
+#: admin/views/help-page.php:49
+msgid "Click Animation:"
+msgstr ""
+
+#: admin/views/help-page.php:49
+msgid "Animation when visitors click on the Apalpador."
+msgstr ""
+
+#: admin/views/help-page.php:52
+msgid "Effects"
+msgstr ""
+
+#: admin/views/help-page.php:54
+msgid "Snow Effect:"
+msgstr ""
+
+#: admin/views/help-page.php:54
+msgid "Falling snowflakes across the screen."
+msgstr ""
+
+#: admin/views/help-page.php:55
+msgid "Shooting Star:"
+msgstr ""
+
+#: admin/views/help-page.php:55
+msgid "Occasional shooting stars crossing the sky."
+msgstr ""
+
+#: admin/views/help-page.php:58
+msgid "Accessibility"
+msgstr ""
+
+#: admin/views/help-page.php:59
+msgid "All animations respect the user's \"prefers-reduced-motion\" setting. If a visitor has enabled reduced motion in their system settings, animations will be disabled automatically."
+msgstr ""
+
+#: admin/views/help-page.php:61
+msgid "Support"
+msgstr ""
+
+#: admin/views/help-page.php:66
+msgid "For support, feature requests, or bug reports, please visit the %s."
+msgstr ""
+
+#: admin/views/help-page.php:67
+msgid "GitHub repository"
+msgstr ""

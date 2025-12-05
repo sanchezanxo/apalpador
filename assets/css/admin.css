@@ -1,0 +1,228 @@
+/**
+ * Apalpador Admin Styles
+ *
+ * @package Apalpador
+ */
+
+/* Settings page layout */
+.apalpador-settings .form-table th {
+	width: 200px;
+}
+
+/* Date inputs */
+.apalpador-date-input {
+	width: 80px;
+	text-align: center;
+}
+
+/* Image selector */
+.apalpador-image-selector {
+	max-width: 600px;
+}
+
+/* Preset Gallery Grid */
+.apalpador-preset-gallery {
+	margin-bottom: 20px;
+}
+
+.apalpador-preset-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+	gap: 12px;
+	max-width: 550px;
+}
+
+.apalpador-preset-item {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 8px;
+	border: 2px solid #c3c4c7;
+	border-radius: 6px;
+	cursor: pointer;
+	transition: all 0.2s ease;
+	background: #fff;
+}
+
+.apalpador-preset-item:hover {
+	border-color: #2271b1;
+	background: #f6f7f7;
+}
+
+.apalpador-preset-item.selected {
+	border-color: #2271b1;
+	background: #e7f3ff;
+	box-shadow: 0 0 0 1px #2271b1;
+}
+
+.apalpador-preset-item input[type="radio"] {
+	position: absolute;
+	opacity: 0;
+	pointer-events: none;
+}
+
+.apalpador-preset-item img {
+	width: 80px;
+	height: 80px;
+	object-fit: contain;
+	border-radius: 4px;
+	background: #f0f0f1;
+}
+
+.apalpador-preset-name {
+	margin-top: 6px;
+	font-size: 11px;
+	text-align: center;
+	color: #50575e;
+	max-width: 90px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+/* Custom upload placeholder */
+.apalpador-custom-placeholder {
+	width: 80px;
+	height: 80px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: #f0f0f1;
+	border: 2px dashed #c3c4c7;
+	border-radius: 4px;
+}
+
+.apalpador-custom-placeholder .dashicons {
+	font-size: 30px;
+	width: 30px;
+	height: 30px;
+	color: #c3c4c7;
+}
+
+.apalpador-custom-placeholder.has-image {
+	border: none;
+}
+
+.apalpador-custom-placeholder img {
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+}
+
+/* Custom upload section */
+.apalpador-custom-upload {
+	margin-top: 15px;
+	padding: 15px;
+	background: #f6f7f7;
+	border: 1px solid #c3c4c7;
+	border-radius: 4px;
+}
+
+.apalpador-select-image,
+.apalpador-remove-image {
+	margin-right: 5px !important;
+}
+
+/* Live Preview */
+.apalpador-live-preview {
+	margin-top: 20px;
+	padding-top: 15px;
+	border-top: 1px solid #c3c4c7;
+}
+
+.apalpador-preview-box {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 15px;
+	background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+	border-radius: 8px;
+	min-width: 150px;
+	min-height: 150px;
+}
+
+.apalpador-preview-img {
+	max-width: 120px;
+	max-height: 120px;
+	display: block;
+}
+
+/* Speech bubble settings */
+.apalpador-bubble-options {
+	margin-top: 10px;
+	padding: 10px;
+	background: #f6f7f7;
+	border: 1px solid #c3c4c7;
+	border-radius: 4px;
+}
+
+.apalpador-bubble-options label {
+	display: block;
+	margin-bottom: 8px;
+}
+
+.apalpador-bubble-text {
+	width: 100%;
+	max-width: 300px;
+}
+
+/* Custom size input */
+.apalpador-custom-size {
+	margin-left: 10px;
+}
+
+.apalpador-custom-size input {
+	width: 80px;
+}
+
+/* Snow density */
+.apalpador-snow-density {
+	margin-top: 10px;
+}
+
+.apalpador-snow-density label {
+	margin-right: 10px;
+}
+
+/* Star frequency */
+.apalpador-star-frequency {
+	margin-top: 10px;
+}
+
+.apalpador-star-frequency input {
+	width: 60px;
+}
+
+/* Help page */
+.apalpador-help-content {
+	max-width: 800px;
+	background: #fff;
+	padding: 20px 30px;
+	border: 1px solid #c3c4c7;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+}
+
+.apalpador-help-content h2 {
+	margin-top: 30px;
+	padding-top: 20px;
+	border-top: 1px solid #c3c4c7;
+}
+
+.apalpador-help-content h2:first-child {
+	margin-top: 0;
+	padding-top: 0;
+	border-top: none;
+}
+
+.apalpador-help-content h3 {
+	margin-top: 20px;
+}
+
+.apalpador-help-content ul,
+.apalpador-help-content ol {
+	margin-left: 20px;
+}
+
+.apalpador-help-content li {
+	margin-bottom: 8px;
+}

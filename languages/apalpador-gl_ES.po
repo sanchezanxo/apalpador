@@ -1,0 +1,508 @@
+# Copyright (C) 2025 Anxo Sánchez
+# This file is distributed under the GPL v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Apalpador 2.0.0\n"
+"Report-Msgid-Bugs-To: https://github.com/sanchezanxo/apalpador/issues\n"
+"POT-Creation-Date: 2024-12-05T00:00:00+00:00\n"
+"PO-Revision-Date: 2025-12-05 22:34+0100\n"
+"Last-Translator: \n"
+"Language-Team: Galician <LL@li.org>\n"
+"Language: gl_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.5\n"
+
+#. Plugin Name of the plugin
+#: includes/class-apalpador-admin.php:169
+#: includes/class-apalpador-frontend.php:245 admin/views/help-page.php:37
+msgid "Apalpador"
+msgstr "Apalpador"
+
+#. Plugin URI of the plugin
+msgid "https://github.com/sanchezanxo/apalpador"
+msgstr "https://github.com/sanchezanxo/apalpador"
+
+#. Description of the plugin
+msgid ""
+"Adds the traditional Galician Christmas character \"Apalpador\" to your "
+"WordPress site with festive visual effects."
+msgstr ""
+"Engade o personaxe tradicional do Nadal galego \"Apalpador\" ao teu sitio de "
+"WordPress con efectos visuais festivos."
+
+#. Author of the plugin
+msgid "Anxo Sánchez"
+msgstr "Anxo Sánchez"
+
+#. Author URI of the plugin
+msgid "https://www.anxosanchez.com"
+msgstr "https://www.anxosanchez.com"
+
+#: includes/class-apalpador-admin.php:46 includes/class-apalpador-admin.php:58
+msgid "Apalpador Settings"
+msgstr "Axustes de Apalpador"
+
+#: includes/class-apalpador-admin.php:59
+msgid "Settings"
+msgstr "Axustes"
+
+#: includes/class-apalpador-admin.php:68
+msgid "Apalpador Help"
+msgstr "Axuda de Apalpador"
+
+#: includes/class-apalpador-admin.php:69
+msgid "Help"
+msgstr "Axuda"
+
+#: includes/class-apalpador-admin.php:112
+msgid "Select Apalpador Image"
+msgstr "Selecciona a imaxe do Apalpador"
+
+#: includes/class-apalpador-admin.php:113
+msgid "Use this image"
+msgstr "Usar esta imaxe"
+
+#: includes/class-apalpador-admin.php:137 admin/views/help-page.php:31
+msgid "General"
+msgstr "Xeral"
+
+#: includes/class-apalpador-admin.php:144
+msgid "Enable Plugin"
+msgstr "Activar o plugin"
+
+#: includes/class-apalpador-admin.php:152
+msgid "Show Character"
+msgstr "Amosar o personaxe"
+
+#: includes/class-apalpador-admin.php:160
+msgid "Date Range"
+msgstr "Intervalo de datas"
+
+#: includes/class-apalpador-admin.php:176
+msgid "Image"
+msgstr "Imaxe"
+
+#: includes/class-apalpador-admin.php:184
+msgid "Position"
+msgstr "Posición"
+
+#: includes/class-apalpador-admin.php:192
+msgid "Size"
+msgstr "Tamaño"
+
+#: includes/class-apalpador-admin.php:200
+msgid "Padding"
+msgstr "Marxe interior"
+
+#: includes/class-apalpador-admin.php:209 admin/views/help-page.php:45
+msgid "Animations"
+msgstr "Animacións"
+
+#: includes/class-apalpador-admin.php:216
+msgid "Entry Animation"
+msgstr "Animación de entrada"
+
+#: includes/class-apalpador-admin.php:224
+msgid "Idle Animation"
+msgstr "Animación en repouso"
+
+#: includes/class-apalpador-admin.php:232
+msgid "Click Animation"
+msgstr "Animación ao facer clic"
+
+#: includes/class-apalpador-admin.php:240
+msgid "Speech Bubble"
+msgstr "Bocadillo de fala"
+
+#: includes/class-apalpador-admin.php:249 admin/views/help-page.php:52
+msgid "Effects"
+msgstr "Efectos"
+
+#: includes/class-apalpador-admin.php:256
+msgid "Snow Effect"
+msgstr "Efecto de neve"
+
+#: includes/class-apalpador-admin.php:264
+msgid "Shooting Star"
+msgstr "Estrela fugaz"
+
+#: includes/class-apalpador-admin.php:383
+msgid "Configure when the Apalpador should appear on your site."
+msgstr "Configura cando debe aparecer o Apalpador no teu sitio."
+
+#: includes/class-apalpador-admin.php:392
+msgid "Customize how the Apalpador looks and where it appears."
+msgstr "Personaliza o aspecto do Apalpador e onde aparece na pantalla."
+
+#: includes/class-apalpador-admin.php:401
+msgid "Configure the Apalpador animations."
+msgstr "Configura as animacións do Apalpador."
+
+#: includes/class-apalpador-admin.php:410
+msgid "Add festive visual effects to your site."
+msgstr "Engade efectos visuais festivos ao teu sitio."
+
+#: includes/class-apalpador-admin.php:424
+msgid "Enable the plugin on the frontend"
+msgstr "Activar o plugin no frontend"
+
+#: includes/class-apalpador-admin.php:426
+msgid "Master switch to enable/disable all plugin features."
+msgstr ""
+"Interruptor xeral para activar ou desactivar todas as funcións do plugin."
+
+#: includes/class-apalpador-admin.php:441
+msgid "Show the Apalpador character"
+msgstr "Amosar o personaxe do Apalpador"
+
+#: includes/class-apalpador-admin.php:443
+msgid ""
+"Disable to show only snow and shooting star effects without the character."
+msgstr ""
+"Desactívao para amosar só os efectos de neve e estrela fugaz sen o personaxe."
+
+#: includes/class-apalpador-admin.php:458
+msgid "From:"
+msgstr "Desde:"
+
+#: includes/class-apalpador-admin.php:462
+msgid "To:"
+msgstr "Ata:"
+
+#: includes/class-apalpador-admin.php:465
+msgid "Format: MM-DD (e.g., 12-01 for December 1st)"
+msgstr "Formato: MM-DD (p.ex., 12-01 para o 1 de decembro)"
+
+#: includes/class-apalpador-admin.php:499
+msgid "Select a preset image:"
+msgstr "Selecciona unha imaxe predefinida:"
+
+#: includes/class-apalpador-admin.php:531
+#: includes/class-apalpador-admin.php:584
+msgid "Custom"
+msgstr "Personalizado"
+
+#: includes/class-apalpador-admin.php:539
+msgid "Select from Media Library"
+msgstr "Seleccionar da Biblioteca de medios"
+
+#: includes/class-apalpador-admin.php:540
+msgid "Remove"
+msgstr "Eliminar"
+
+#: includes/class-apalpador-admin.php:545
+msgid "Preview:"
+msgstr "Previsualización:"
+
+#: includes/class-apalpador-admin.php:547
+msgid "Preview"
+msgstr "Previsualizar"
+
+#: includes/class-apalpador-admin.php:564
+msgid "Bottom Left"
+msgstr "Abaixo á esquerda"
+
+#: includes/class-apalpador-admin.php:565
+msgid "Bottom Right"
+msgstr "Abaixo á dereita"
+
+#: includes/class-apalpador-admin.php:581
+msgid "Small (100px)"
+msgstr "Pequeno (100px)"
+
+#: includes/class-apalpador-admin.php:582
+msgid "Medium (150px)"
+msgstr "Medio (150px)"
+
+#: includes/class-apalpador-admin.php:583
+msgid "Large (200px)"
+msgstr "Grande (200px)"
+
+#: includes/class-apalpador-admin.php:603
+msgid "Horizontal:"
+msgstr "Horizontal:"
+
+#: includes/class-apalpador-admin.php:608
+msgid "Vertical:"
+msgstr "Vertical:"
+
+#: includes/class-apalpador-admin.php:624
+#: includes/class-apalpador-admin.php:659
+msgid "None"
+msgstr "Ningún"
+
+#: includes/class-apalpador-admin.php:625
+msgid "Slide"
+msgstr "Deslizar"
+
+#: includes/class-apalpador-admin.php:626
+msgid "Fade"
+msgstr "Esvaecer"
+
+#: includes/class-apalpador-admin.php:627
+#: includes/class-apalpador-admin.php:661
+msgid "Bounce"
+msgstr "Rebotar"
+
+#: includes/class-apalpador-admin.php:628
+msgid "Rotate"
+msgstr "Rotar"
+
+#: includes/class-apalpador-admin.php:644
+msgid "Enable subtle breathing animation"
+msgstr "Activar unha animación sutil de respiración"
+
+#: includes/class-apalpador-admin.php:660
+msgid "Shake"
+msgstr "Tremer"
+
+#: includes/class-apalpador-admin.php:662
+msgid "Spin"
+msgstr "Xirar"
+
+#: includes/class-apalpador-admin.php:663
+msgid "Pulse"
+msgstr "Pulsar"
+
+#: includes/class-apalpador-admin.php:682
+msgid "Enable speech bubble"
+msgstr "Activar o bocadillo de fala"
+
+#: includes/class-apalpador-admin.php:686
+msgid "Text:"
+msgstr "Texto:"
+
+#: includes/class-apalpador-admin.php:689
+msgid "Maximum 100 characters."
+msgstr "Máximo 100 caracteres."
+
+#: includes/class-apalpador-admin.php:692
+msgid "Font size:"
+msgstr "Tamaño da fonte:"
+
+#: includes/class-apalpador-admin.php:694
+#: includes/class-apalpador-admin.php:729
+msgid "Small"
+msgstr "Pequeno"
+
+#: includes/class-apalpador-admin.php:695
+#: includes/class-apalpador-admin.php:730
+msgid "Medium"
+msgstr "Medio"
+
+#: includes/class-apalpador-admin.php:696
+#: includes/class-apalpador-admin.php:731
+msgid "Large"
+msgstr "Grande"
+
+#: includes/class-apalpador-admin.php:701
+msgid "Trigger:"
+msgstr "Disparador:"
+
+#: includes/class-apalpador-admin.php:703
+msgid "Show once on page load"
+msgstr "Amosar unha vez ao cargar a páxina"
+
+#: includes/class-apalpador-admin.php:704
+msgid "Show on click"
+msgstr "Amosar ao facer clic"
+
+#: includes/class-apalpador-admin.php:705
+msgid "Show on hover"
+msgstr "Amosar ao pasar o rato"
+
+#: includes/class-apalpador-admin.php:724
+msgid "Enable snow effect"
+msgstr "Activar o efecto de neve"
+
+#: includes/class-apalpador-admin.php:727
+msgid "Density:"
+msgstr "Densidade:"
+
+#: includes/class-apalpador-admin.php:729
+msgid "Low"
+msgstr "Baixa"
+
+#: includes/class-apalpador-admin.php:731
+msgid "High"
+msgstr "Alta"
+
+#: includes/class-apalpador-admin.php:749
+msgid "Enable shooting star effect"
+msgstr "Activar o efecto de estrela fugaz"
+
+#: includes/class-apalpador-admin.php:753
+msgid "Frequency: every"
+msgstr "Frecuencia: cada"
+
+#: includes/class-apalpador-admin.php:755
+msgid "seconds"
+msgstr "segundos"
+
+#: includes/class-apalpador-frontend.php:236
+msgid "Apalpador - Traditional Galician Christmas character"
+msgstr "Apalpador - Personaxe tradicional do Nadal galego"
+
+#: admin/views/help-page.php:17
+msgid "About the Apalpador"
+msgstr "Sobre o Apalpador"
+
+#: admin/views/help-page.php:18
+msgid ""
+"The Apalpador is a traditional Galician Christmas figure. He is a charcoal "
+"maker who comes down from the mountains on the night of December 31st to "
+"check if children have eaten well during the year by touching their bellies. "
+"If they have eaten well, he leaves them chestnuts as a gift."
+msgstr ""
+"O Apalpador é unha figura tradicional do Nadal galego. É un carboeiro que "
+"baixa das montañas na noite do 31 de decembro para comprobar, tocándolles a "
+"barriga, se as nenas e nenos comeron ben durante o ano. Déixalles castañas "
+"como agasallo."
+
+#: admin/views/help-page.php:20
+msgid "How to Use"
+msgstr "Como usar"
+
+#: admin/views/help-page.php:22
+msgid "Go to Settings to configure the plugin."
+msgstr "Vai a Axustes para configurar o plugin."
+
+#: admin/views/help-page.php:23
+msgid "Enable the plugin and set your preferred date range."
+msgstr "Activa o plugin e establece o intervalo de datas que prefiras."
+
+#: admin/views/help-page.php:24
+msgid "Choose an image for the Apalpador or use the default."
+msgstr "Escolle unha imaxe para o Apalpador ou usa a que vén por defecto."
+
+#: admin/views/help-page.php:25
+msgid "Customize position, size, and animations as desired."
+msgstr "Personaliza a posición, o tamaño e as animacións como queiras."
+
+#: admin/views/help-page.php:26
+msgid "Enable snow and shooting star effects for extra festivity."
+msgstr "Activa os efectos de neve e estrelas fugaces para un extra de festa."
+
+#: admin/views/help-page.php:29
+msgid "Settings Overview"
+msgstr "Resumo dos axustes"
+
+#: admin/views/help-page.php:33
+msgid "Enable Plugin:"
+msgstr "Activar o plugin:"
+
+#: admin/views/help-page.php:33
+msgid "Turn the Apalpador display on or off."
+msgstr "Activa ou desactiva a visualización do Apalpador."
+
+#: admin/views/help-page.php:34
+msgid "Date Range:"
+msgstr "Intervalo de datas:"
+
+#: admin/views/help-page.php:34
+msgid ""
+"Set when the Apalpador should appear. Default is December 1st to January 6th."
+msgstr ""
+"Indica cando debe aparecer o Apalpador. Por defecto é entre o 1 de decembro "
+"e o 6 de xaneiro."
+
+#: admin/views/help-page.php:39
+msgid "Image:"
+msgstr "Imaxe:"
+
+#: admin/views/help-page.php:39
+msgid "Select a custom image from your media library."
+msgstr "Selecciona unha imaxe personalizada desde a túa biblioteca de medios."
+
+#: admin/views/help-page.php:40
+msgid "Position:"
+msgstr "Posición:"
+
+#: admin/views/help-page.php:40
+msgid "Choose bottom-left or bottom-right corner."
+msgstr "Escolle a esquina inferior esquerda ou dereita."
+
+#: admin/views/help-page.php:41
+msgid "Size:"
+msgstr "Tamaño:"
+
+#: admin/views/help-page.php:41
+msgid "Small (100px), Medium (150px), Large (200px), or Custom."
+msgstr "Pequeno (100px), Medio (150px), Grande (200px) ou Personalizado."
+
+#: admin/views/help-page.php:42
+msgid "Padding:"
+msgstr "Marxe interior:"
+
+#: admin/views/help-page.php:42
+msgid "Distance from the edges of the screen."
+msgstr "Distancia respecto das beiras da pantalla."
+
+#: admin/views/help-page.php:47
+msgid "Entry Animation:"
+msgstr "Animación de entrada:"
+
+#: admin/views/help-page.php:47
+msgid "How the Apalpador appears when the page loads."
+msgstr "Como aparece o Apalpador cando carga a páxina."
+
+#: admin/views/help-page.php:48
+msgid "Idle Animation:"
+msgstr "Animación en repouso:"
+
+#: admin/views/help-page.php:48
+msgid "Subtle breathing movement while idle."
+msgstr "Movemento sutil de respiración mentres está parado."
+
+#: admin/views/help-page.php:49
+msgid "Click Animation:"
+msgstr "Animación ao facer clic:"
+
+#: admin/views/help-page.php:49
+msgid "Animation when visitors click on the Apalpador."
+msgstr "Animación cando as visitantes fan clic no Apalpador."
+
+#: admin/views/help-page.php:54
+msgid "Snow Effect:"
+msgstr "Efecto de neve:"
+
+#: admin/views/help-page.php:54
+msgid "Falling snowflakes across the screen."
+msgstr "Focos de neve caendo por toda a pantalla."
+
+#: admin/views/help-page.php:55
+msgid "Shooting Star:"
+msgstr "Estrela fugaz:"
+
+#: admin/views/help-page.php:55
+msgid "Occasional shooting stars crossing the sky."
+msgstr "Estrelas fugaces ocasionais cruzando o ceo."
+
+#: admin/views/help-page.php:58
+msgid "Accessibility"
+msgstr "Accesibilidade"
+
+#: admin/views/help-page.php:59
+msgid ""
+"All animations respect the user's \"prefers-reduced-motion\" setting. If a "
+"visitor has enabled reduced motion in their system settings, animations will "
+"be disabled automatically."
+msgstr ""
+"Todas as animacións respectan a preferencia \"prefers-reduced-motion\" da "
+"persoa usuaria. Se alguén ten activada a redución de movemento na "
+"configuración do seu sistema, as animacións desactivaranse automaticamente."
+
+#: admin/views/help-page.php:61
+msgid "Support"
+msgstr "Soporte"
+
+#: admin/views/help-page.php:66
+msgid "For support, feature requests, or bug reports, please visit the %s."
+msgstr ""
+"Para soporte, suxestións de novas funcións ou informes de erros, visita o %s."
+
+#: admin/views/help-page.php:67
+msgid "GitHub repository"
+msgstr "repositorio de GitHub"
