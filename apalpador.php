@@ -32,15 +32,6 @@ require_once APALPADOR_PLUGIN_DIR . 'includes/class-apalpador-settings.php';
 require_once APALPADOR_PLUGIN_DIR . 'includes/class-apalpador-admin.php';
 require_once APALPADOR_PLUGIN_DIR . 'includes/class-apalpador-frontend.php';
 
-/**
- * Load plugin text domain for translations.
- *
- * @return void
- */
-function apalpador_load_textdomain() {
-	load_plugin_textdomain( 'apalpador', false, dirname( APALPADOR_PLUGIN_BASENAME ) . '/languages' );
-}
-add_action( 'plugins_loaded', 'apalpador_load_textdomain' );
 
 /**
  * Plugin activation hook.
