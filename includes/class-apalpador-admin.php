@@ -495,8 +495,8 @@ class Apalpador_Admin {
 			$current_preview_url = $custom_image_url;
 		} elseif ( isset( $presets[ $image_preset ] ) ) {
 			$current_preview_url = $presets[ $image_preset ];
-		} elseif ( isset( $presets['default'] ) ) {
-			$current_preview_url = $presets['default'];
+		} elseif ( isset( $presets['apalpador-default'] ) ) {
+			$current_preview_url = $presets['apalpador-default'];
 		}
 		?>
 		<div class="apalpador-image-selector">

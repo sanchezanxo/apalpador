@@ -91,7 +91,7 @@ class Apalpador_Settings {
 			'character_enabled' => true,
 			'date_start'        => '12-01',
 			'date_end'          => '01-06',
-			'image_preset'      => 'default',
+			'image_preset'      => 'apalpador-default',
 			'image_id'          => 0,
 			'position'          => 'bottom-left',
 			'size'              => 'medium',
