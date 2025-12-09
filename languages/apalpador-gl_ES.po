@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: Apalpador 2.0.0\n"
 "Report-Msgid-Bugs-To: https://github.com/sanchezanxo/apalpador/issues\n"
 "POT-Creation-Date: 2024-12-05T00:00:00+00:00\n"
-"PO-Revision-Date: 2025-12-05 22:34+0100\n"
+"PO-Revision-Date: 2025-12-09 16:39+0100\n"
 "Last-Translator: \n"
 "Language-Team: Galician <LL@li.org>\n"
 "Language: gl_ES\n"
@@ -15,8 +15,8 @@ msgstr ""
 "X-Generator: Poedit 3.5\n"
 
 #. Plugin Name of the plugin
-#: includes/class-apalpador-admin.php:169
-#: includes/class-apalpador-frontend.php:245 admin/views/help-page.php:37
+#: includes/class-apalpador-admin.php:169 includes/class-apalpador-frontend.php:245
+#: admin/views/help-page.php:37
 msgid "Apalpador"
 msgstr "Apalpador"
 
@@ -26,8 +26,8 @@ msgstr "https://github.com/sanchezanxo/apalpador"
 
 #. Description of the plugin
 msgid ""
-"Adds the traditional Galician Christmas character \"Apalpador\" to your "
-"WordPress site with festive visual effects."
+"Adds the traditional Galician Christmas character \"Apalpador\" to your WordPress "
+"site with festive visual effects."
 msgstr ""
 "Engade o personaxe tradicional do Nadal galego \"Apalpador\" ao teu sitio de "
 "WordPress con efectos visuais festivos."
@@ -110,11 +110,11 @@ msgstr "Animación en repouso"
 
 #: includes/class-apalpador-admin.php:232
 msgid "Click Animation"
-msgstr "Animación ao facer clic"
+msgstr "Animación ao premer"
 
 #: includes/class-apalpador-admin.php:240
 msgid "Speech Bubble"
-msgstr "Bocadillo de fala"
+msgstr "Globo de fala"
 
 #: includes/class-apalpador-admin.php:249 admin/views/help-page.php:52
 msgid "Effects"
@@ -150,16 +150,14 @@ msgstr "Activar o plugin no frontend"
 
 #: includes/class-apalpador-admin.php:426
 msgid "Master switch to enable/disable all plugin features."
-msgstr ""
-"Interruptor xeral para activar ou desactivar todas as funcións do plugin."
+msgstr "Interruptor xeral para activar ou desactivar todas as funcións do plugin."
 
 #: includes/class-apalpador-admin.php:441
 msgid "Show the Apalpador character"
 msgstr "Amosar o personaxe do Apalpador"
 
 #: includes/class-apalpador-admin.php:443
-msgid ""
-"Disable to show only snow and shooting star effects without the character."
+msgid "Disable to show only snow and shooting star effects without the character."
 msgstr ""
 "Desactívao para amosar só os efectos de neve e estrela fugaz sen o personaxe."
 
@@ -179,8 +177,7 @@ msgstr "Formato: MM-DD (p.ex., 12-01 para o 1 de decembro)"
 msgid "Select a preset image:"
 msgstr "Selecciona unha imaxe predefinida:"
 
-#: includes/class-apalpador-admin.php:531
-#: includes/class-apalpador-admin.php:584
+#: includes/class-apalpador-admin.php:531 includes/class-apalpador-admin.php:584
 msgid "Custom"
 msgstr "Personalizado"
 
@@ -228,8 +225,7 @@ msgstr "Horizontal:"
 msgid "Vertical:"
 msgstr "Vertical:"
 
-#: includes/class-apalpador-admin.php:624
-#: includes/class-apalpador-admin.php:659
+#: includes/class-apalpador-admin.php:624 includes/class-apalpador-admin.php:659
 msgid "None"
 msgstr "Ningún"
 
@@ -241,8 +237,7 @@ msgstr "Deslizar"
 msgid "Fade"
 msgstr "Esvaecer"
 
-#: includes/class-apalpador-admin.php:627
-#: includes/class-apalpador-admin.php:661
+#: includes/class-apalpador-admin.php:627 includes/class-apalpador-admin.php:661
 msgid "Bounce"
 msgstr "Rebotar"
 
@@ -264,11 +259,11 @@ msgstr "Xirar"
 
 #: includes/class-apalpador-admin.php:663
 msgid "Pulse"
-msgstr "Pulsar"
+msgstr "Premer"
 
 #: includes/class-apalpador-admin.php:682
 msgid "Enable speech bubble"
-msgstr "Activar o bocadillo de fala"
+msgstr "Activar o globo de fala"
 
 #: includes/class-apalpador-admin.php:686
 msgid "Text:"
@@ -282,18 +277,15 @@ msgstr "Máximo 100 caracteres."
 msgid "Font size:"
 msgstr "Tamaño da fonte:"
 
-#: includes/class-apalpador-admin.php:694
-#: includes/class-apalpador-admin.php:729
+#: includes/class-apalpador-admin.php:694 includes/class-apalpador-admin.php:729
 msgid "Small"
 msgstr "Pequeno"
 
-#: includes/class-apalpador-admin.php:695
-#: includes/class-apalpador-admin.php:730
+#: includes/class-apalpador-admin.php:695 includes/class-apalpador-admin.php:730
 msgid "Medium"
 msgstr "Medio"
 
-#: includes/class-apalpador-admin.php:696
-#: includes/class-apalpador-admin.php:731
+#: includes/class-apalpador-admin.php:696 includes/class-apalpador-admin.php:731
 msgid "Large"
 msgstr "Grande"
 
@@ -351,15 +343,15 @@ msgstr "Sobre o Apalpador"
 
 #: admin/views/help-page.php:18
 msgid ""
-"The Apalpador is a traditional Galician Christmas figure. He is a charcoal "
-"maker who comes down from the mountains on the night of December 31st to "
-"check if children have eaten well during the year by touching their bellies. "
-"If they have eaten well, he leaves them chestnuts as a gift."
+"The Apalpador is a traditional Galician Christmas figure. He is a charcoal maker "
+"who comes down from the mountains on the night of December 31st to check if "
+"children have eaten well during the year by touching their bellies. If they have "
+"eaten well, he leaves them chestnuts as a gift."
 msgstr ""
-"O Apalpador é unha figura tradicional do Nadal galego. É un carboeiro que "
-"baixa das montañas na noite do 31 de decembro para comprobar, tocándolles a "
-"barriga, se as nenas e nenos comeron ben durante o ano. Déixalles castañas "
-"como agasallo."
+"O Apalpador é unha figura tradicional do Nadal galego. É un carboeiro que baixa "
+"das montañas na noite do 24 ou 31 de decembro para comprobar, tocándolles a "
+"barriga, se as nenas e nenos comeron ben durante o ano. Déixalles castañas como "
+"agasallo."
 
 #: admin/views/help-page.php:20
 msgid "How to Use"
@@ -405,8 +397,8 @@ msgstr "Intervalo de datas:"
 msgid ""
 "Set when the Apalpador should appear. Default is December 1st to January 6th."
 msgstr ""
-"Indica cando debe aparecer o Apalpador. Por defecto é entre o 1 de decembro "
-"e o 6 de xaneiro."
+"Indica cando debe aparecer o Apalpador. Por defecto é entre o 1 de decembro e o 6 "
+"de xaneiro."
 
 #: admin/views/help-page.php:39
 msgid "Image:"
@@ -438,7 +430,7 @@ msgstr "Marxe interior:"
 
 #: admin/views/help-page.php:42
 msgid "Distance from the edges of the screen."
-msgstr "Distancia respecto das beiras da pantalla."
+msgstr "Distancia respecto ás beiras da pantalla."
 
 #: admin/views/help-page.php:47
 msgid "Entry Animation:"
@@ -458,11 +450,11 @@ msgstr "Movemento sutil de respiración mentres está parado."
 
 #: admin/views/help-page.php:49
 msgid "Click Animation:"
-msgstr "Animación ao facer clic:"
+msgstr "Animación ao premer:"
 
 #: admin/views/help-page.php:49
 msgid "Animation when visitors click on the Apalpador."
-msgstr "Animación cando as visitantes fan clic no Apalpador."
+msgstr "Animación cando os visitantes preman no Apalpador."
 
 #: admin/views/help-page.php:54
 msgid "Snow Effect:"
@@ -470,7 +462,7 @@ msgstr "Efecto de neve:"
 
 #: admin/views/help-page.php:54
 msgid "Falling snowflakes across the screen."
-msgstr "Focos de neve caendo por toda a pantalla."
+msgstr "Folerpas de neve caendo por toda a pantalla."
 
 #: admin/views/help-page.php:55
 msgid "Shooting Star:"
@@ -487,12 +479,12 @@ msgstr "Accesibilidade"
 #: admin/views/help-page.php:59
 msgid ""
 "All animations respect the user's \"prefers-reduced-motion\" setting. If a "
-"visitor has enabled reduced motion in their system settings, animations will "
-"be disabled automatically."
+"visitor has enabled reduced motion in their system settings, animations will be "
+"disabled automatically."
 msgstr ""
-"Todas as animacións respectan a preferencia \"prefers-reduced-motion\" da "
-"persoa usuaria. Se alguén ten activada a redución de movemento na "
-"configuración do seu sistema, as animacións desactivaranse automaticamente."
+"Todas as animacións respectan a preferencia \"prefers-reduced-motion\" da persoa "
+"usuaria. Se alguén ten activada a redución de movemento na configuración do seu "
+"sistema, as animacións desactivaranse automaticamente."
 
 #: admin/views/help-page.php:61
 msgid "Support"
@@ -505,4 +497,16 @@ msgstr ""
 
 #: admin/views/help-page.php:67
 msgid "GitHub repository"
-msgstr "repositorio de GitHub"
+msgstr "Repositorio de GitHub"
+
+#: includes/class-apalpador-admin.php:582
+msgid "Desktop:"
+msgstr "Escritorio:"
+
+#: includes/class-apalpador-admin.php:593
+msgid "Mobile:"
+msgstr "Móbil:"
+
+#: includes/class-apalpador-admin.php:760
+msgid "Color:"
+msgstr "Cor:"

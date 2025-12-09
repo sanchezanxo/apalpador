@@ -338,6 +338,18 @@ msgstr ""
 msgid "seconds"
 msgstr ""
 
+#: includes/class-apalpador-admin.php:760
+msgid "Color:"
+msgstr ""
+
+#: includes/class-apalpador-admin.php:582
+msgid "Desktop:"
+msgstr ""
+
+#: includes/class-apalpador-admin.php:593
+msgid "Mobile:"
+msgstr ""
+
 #: includes/class-apalpador-frontend.php:236
 msgid "Apalpador - Traditional Galician Christmas character"
 msgstr ""
