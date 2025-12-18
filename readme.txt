@@ -4,8 +4,8 @@ Tags: christmas, galicia, apalpador, snow, decoration
 Requires at least: 5.0
 Tested up to: 6.9
 Requires PHP: 7.4
-Stable tag: 2.0.0
-License: GPLv2 or later
+Stable tag: 1.0.0
+License: GPL-2.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
 Adds the traditional Galician Christmas character "Apalpador" to your WordPress site with festive visual effects.

@@ -291,15 +291,15 @@ class Apalpador_Admin {
 			: $defaults['image_preset'];
 		$sanitized['image_id']    = absint( $input['image_id'] ?? 0 );
 		$sanitized['position']    = in_array( $input['position'] ?? '', array( 'bottom-left', 'bottom-right' ), true )
-			? $input['position']
+			? sanitize_key( $input['position'] )
 			: $defaults['position'];
 		$sanitized['size']        = in_array( $input['size'] ?? '', array( 'small', 'medium', 'large', 'custom' ), true )
-			? $input['size']
+			? sanitize_key( $input['size'] )
 			: $defaults['size'];
 		$sanitized['size_custom'] = absint( $input['size_custom'] ?? $defaults['size_custom'] );
 		$sanitized['size_custom'] = max( 50, min( 500, $sanitized['size_custom'] ) ); // Clamp 50-500.
 		$sanitized['size_mobile']        = in_array( $input['size_mobile'] ?? '', array( 'small', 'medium', 'large', 'custom' ), true )
-			? $input['size_mobile']
+			? sanitize_key( $input['size_mobile'] )
 			: $defaults['size_mobile'];
 		$sanitized['size_custom_mobile'] = absint( $input['size_custom_mobile'] ?? $defaults['size_custom_mobile'] );
 		$sanitized['size_custom_mobile'] = max( 50, min( 500, $sanitized['size_custom_mobile'] ) ); // Clamp 50-500.
@@ -310,11 +310,11 @@ class Apalpador_Admin {
 
 		// Animations.
 		$sanitized['anim_entry'] = in_array( $input['anim_entry'] ?? '', array( 'none', 'slide', 'fade', 'bounce', 'rotate' ), true )
-			? $input['anim_entry']
+			? sanitize_key( $input['anim_entry'] )
 			: $defaults['anim_entry'];
 		$sanitized['anim_idle']  = ! empty( $input['anim_idle'] );
 		$sanitized['anim_click'] = in_array( $input['anim_click'] ?? '', array( 'none', 'shake', 'bounce', 'spin', 'pulse' ), true )
-			? $input['anim_click']
+			? sanitize_key( $input['anim_click'] )
 			: $defaults['anim_click'];
 
 		// Speech bubble.
@@ -322,16 +322,16 @@ class Apalpador_Admin {
 		$sanitized['bubble_text']    = sanitize_text_field( $input['bubble_text'] ?? $defaults['bubble_text'] );
 		$sanitized['bubble_text']    = mb_substr( $sanitized['bubble_text'], 0, 100 ); // Max 100 chars.
 		$sanitized['bubble_trigger'] = in_array( $input['bubble_trigger'] ?? '', array( 'once', 'click', 'hover' ), true )
-			? $input['bubble_trigger']
+			? sanitize_key( $input['bubble_trigger'] )
 			: $defaults['bubble_trigger'];
 		$sanitized['bubble_size']    = in_array( $input['bubble_size'] ?? '', array( 'small', 'medium', 'large' ), true )
-			? $input['bubble_size']
+			? sanitize_key( $input['bubble_size'] )
 			: $defaults['bubble_size'];
 
 		// Effects.
 		$sanitized['snow_enabled']   = ! empty( $input['snow_enabled'] );
 		$sanitized['snow_density']   = in_array( $input['snow_density'] ?? '', array( 'low', 'medium', 'high' ), true )
-			? $input['snow_density']
+			? sanitize_key( $input['snow_density'] )
 			: $defaults['snow_density'];
 		$sanitized['star_enabled']   = ! empty( $input['star_enabled'] );
 		$sanitized['star_frequency'] = absint( $input['star_frequency'] ?? $defaults['star_frequency'] );

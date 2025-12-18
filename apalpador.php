@@ -3,12 +3,12 @@
  * Plugin Name:       Apalpador
  * Plugin URI:        https://github.com/sanchezanxo/apalpador
  * Description:       Adds the traditional Galician Christmas character "Apalpador" to your WordPress site with festive visual effects.
- * Version:           2.0.0
+ * Version:           1.0.0
  * Requires at least: 5.0
  * Requires PHP:      7.4
  * Author:            Anxo Sánchez
  * Author URI:        https://www.anxosanchez.com
- * License:           GPL v2 or later
+ * License:           GPL-2.0-or-later
  * License URI:       https://www.gnu.org/licenses/gpl-2.0.html
  * Text Domain:       apalpador
  * Domain Path:       /languages
@@ -22,7 +22,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 // Plugin constants.
-define( 'APALPADOR_VERSION', '2.0.0' );
+define( 'APALPADOR_VERSION', '1.0.0' );
 define( 'APALPADOR_PLUGIN_DIR', plugin_dir_path( __FILE__ ) );
 define( 'APALPADOR_PLUGIN_URL', plugin_dir_url( __FILE__ ) );
 define( 'APALPADOR_PLUGIN_BASENAME', plugin_basename( __FILE__ ) );
